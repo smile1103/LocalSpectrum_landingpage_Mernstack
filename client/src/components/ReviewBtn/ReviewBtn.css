@@ -1,0 +1,27 @@
+.review-btn {
+  
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 100px;
+  background: linear-gradient(-30deg,#36ECFF, #41C2FF 70%, #09B0FF);
+  position: absolute;
+  top: 360px;
+  right: 35%;
+  cursor: pointer;
+  transform: scale(0.8)
+}
+
+.review-btn:hover {
+  background: #09B0FF;
+  
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .review-btn {
+    transform: scale(0.7);
+    top:249px;
+    right: 5px;
+  }
+}

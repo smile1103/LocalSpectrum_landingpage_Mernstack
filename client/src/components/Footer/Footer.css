@@ -1,0 +1,18 @@
+.footer {
+  min-height: 100px;
+  background: #FFFFFF;
+  bottom: 0;
+  position: relative;
+}
+
+.footer span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  margin-bottom: -5px;
+  /* background: linear-gradient(-45deg,#0090F4, #6c38d9, #C12B9C); */
+  background: linear-gradient(45deg,#FF1F9A, #FF7E19, #FED92A);
+  color: white;
+}

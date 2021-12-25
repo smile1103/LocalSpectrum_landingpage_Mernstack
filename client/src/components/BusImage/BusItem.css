@@ -1,0 +1,142 @@
+/* html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    margin-bottom: 80px;
+    background-image: url("../images/paper.png");
+  } */
+
+
+
+
+  /* ============ CARD ITEM =============== */
+  .card {
+    background: #fff;
+    position: relative;
+    width: 325px;
+    height: 350px;
+    padding-bottom: 80px;
+    /* box-shadow: 0 3px 6px #FF7D18, 0 3px 6px #FF1F99; */
+    box-shadow: none;
+    text-align: left;
+    margin: 30px 0;
+    border:2px solid #FF1F99;
+    border-image-source: linear-gradient(45deg,#FF1F99, #FF7D18, #FED92A);
+    border-image-slice: 2;
+    
+  }
+  
+  .card > .img-container {
+    height: 60%;
+    overflow: hidden;
+    text-align: center;
+    /* background:linear-gradient(60deg,#0093D6, #00D6CE, #67BE78); */
+    background: linear-gradient(45deg,#FF1F99, #FF7D18, #FED92A); 
+    border-bottom:2px solid #FF1F99;
+    border-image-source: linear-gradient(to right,#FF1F99, #FF7D18, #FED92A);
+    border-image-slice: 2;
+  }
+
+
+
+  .card > .img-container > img {
+    width: 100%;
+    
+  }
+  
+  .card > .content {
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+  
+  .card > .content > ul {
+    list-style-type: none;
+  }
+  
+  .card > .content > ul > li.itemTittle {
+    margin-top: 18px;
+    margin-left: -25px;
+  }
+
+.itemTittle{
+    text-transform: uppercase;
+    font-size:25px;
+    /* background: -webkit-linear-gradient(left, #FF1F99, #FF7D18, #FED92A);
+    background: -o-linear-gradient(right, #FF1F99, #FF7D18, #FED92A);
+    background: -moz-linear-gradient(right, #FF1F99, #FF7D18, #FED92A); */
+    background: linear-gradient(20deg,#FF1F99, #FF7D18, #FED829); 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  }
+
+  .itemDes{
+    font-size: 13px;
+    margin-left: -25px;
+    margin-top: 10px;
+  }
+
+  hr {
+    border-top: 1.25px solid #FF1F99;
+    margin: 20px 15px;
+    
+  }
+
+
+  .seeReviewBtn {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: linear-gradient(-30deg,#B3EF74 , #5DCA73 70%, #41BA59);
+    margin-left:0px;
+    border:0!important;
+    transform: scale(0.8);
+    
+  }
+  
+  .edit-btn:hover {
+    background: #41BA59;
+  }
+  
+
+  /* .card > .remove {
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  
+  .card > .remove:hover {
+    color: #FF1F99;
+  } */
+
+  @media (min-width: 768px) and (max-width: 1000px) {
+    .card {
+      height: 307px;
+      width: 240px;
+    }
+
+    .card > .img-container {
+      height: 55%;
+    }
+
+    hr {
+      margin: 20px 10px;
+      
+    }
+       
+}
+@media (max-width: 768px){
+  .card > .content > ul > li.itemTittle {
+    margin-top:-30px!important;
+    margin-left:-20px!important;
+  }
+  .seeReviewBtn{
+    margin-left:-20px!important;
+  }
+}

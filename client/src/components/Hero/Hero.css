@@ -1,0 +1,54 @@
+
+/* #0090F4, #6c38d9, #C12B9C */
+/* #FF1F9A, #FF7E19, #FED92A */
+
+.hero {
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:  center;
+  position: relative;
+  background-image:url("./map3.jpg");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero * {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+
+.hero h2{
+  color: #FF7E19;
+  font-size:20px!important;
+  font-weight:350;
+  letter-spacing: 0.6em;
+  padding-top:20px;
+}
+
+.hero h1 {
+  font-size: 45px;
+  padding-top: 160px;
+  margin-top: 0;
+  color: #FF1F9A;
+}
+
+.glyphicon-heart {
+  font-size: 30px!important;
+  color:#FED92A;
+}
+
+
+@media (max-width: 548px) {
+  .hero {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:  center;
+    position: relative;
+  }
+}
