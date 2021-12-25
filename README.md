@@ -4,10 +4,6 @@
 
 A `NodeJS`, `MongoDB`, `Express`, and `ReactJS` application where users can query items within cities that were posted by other users. Users are free to add reviews, comments, and post their own items if they register. For each item posted, the user can add an image, title, and description. 
 
-## Getting Started
-
-You can refer to the link here to see the application deployed on Heroku: https://local-spectrum.herokuapp.com/
-
 
 ## In Progress
 
